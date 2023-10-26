@@ -1,0 +1,24 @@
+Source YT: https://www.youtube.com/watch?v=0jtx2hUCxfM
+Source github: https://github.com/mfikricom/CRUD-Next.js-13-Prisma-PostgreSQL
+
+1. npx create-next-app@13.5.4 --experimental-app .  
+2. input project name
+3. npm i daisyui axios  
+4. edit "tailwind.config.ts" ->  plugins: [require("daisyui")]
+5. edit app/global.css
+6. edit default page.tsx
+7. cd rentcar -> exec npm run dev
+8. npm i @prisma/client
+9. npx prisma init
+10. install postgresql
+11. edit .env (adjust DB credential)
+12. edit prisma/schema.prisma -> create/generate tables database and relation
+13. npx prisma migrate dev -> migration name = 1
+14. npx prisma studio
+13. edit page.tsx, add, edit, delete.tsx
+14. edit api/route.ts
+15. edit api/drivers/id/route.ts
+
+Deploy to Vercel: https://www.youtube.com/watch?v=g7xpxO4V-ls
+npx prisma migrate dev
+edit package.json -> add "postinstall": "prisma generate"
