@@ -2,6 +2,9 @@ import { PrismaClient } from "@prisma/client";
 import AddDriver from "./addDriver";
 import DeleteDriver from "./deleteDriver";
 import UpdateDriver from "./updateDriver";
+
+export const revalidate = 0
+
 const prisma = new PrismaClient();
 
 const getDrivers = async () => {

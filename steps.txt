@@ -22,3 +22,8 @@ Source github: https://github.com/mfikricom/CRUD-Next.js-13-Prisma-PostgreSQL
 Deploy to Vercel: https://www.youtube.com/watch?v=g7xpxO4V-ls
 npx prisma migrate dev
 setup https://vercel.com/
+
+
+https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/vercel-caching-issue
+
+https://stackoverflow.com/questions/74379563/next-js-13-why-isnt-my-root-page-dynamic
