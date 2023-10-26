@@ -21,4 +21,4 @@ Source github: https://github.com/mfikricom/CRUD-Next.js-13-Prisma-PostgreSQL
 
 Deploy to Vercel: https://www.youtube.com/watch?v=g7xpxO4V-ls
 npx prisma migrate dev
-edit package.json -> add "postinstall": "prisma generate"
+setup https://vercel.com/
